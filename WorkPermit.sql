@@ -50,4 +50,10 @@ ALTER TABLE WorkPermit_Trn MODIFY COLUMN revisedtime int ;
 ALTER TABLE `safetyportal`.`workpermit_trn` 
 CHANGE COLUMN `workpermitid` `workpermitid` INT NOT NULL AUTO_INCREMENT
 
+--------------------------------------------------------
+// 23-04-2022 - Date change into Varchar
+
+ALTER TABLE `safetyportal`.`workpermit_trn` 
+CHANGE COLUMN `permitdate` `permitdate` VARCHAR(20) NULL DEFAULT NULL ;
+
 
