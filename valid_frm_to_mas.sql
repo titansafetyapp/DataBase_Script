@@ -20,3 +20,13 @@ INSERT INTO `valid_frm_to_mas` VALUES (1,'10.00 A.M',NULL,'Y',NULL,NULL,NULL,NUL
 (4,'11.30 A.M',NULL,'Y',NULL,NULL,NULL,NULL),
 (5,'12.00 P.M',NULL,'Y',NULL,NULL,NULL,NULL),
 (6,'12.30 P.M',NULL,'Y',NULL,NULL,NULL,NULL);
+
+
+
+INSERT INTO `safetyportal`.`valid_frm_to_mas` (`id`, `frmtoname`, `activeind`) VALUES ('26 ', '06:30 P.M', 'Y');
+INSERT INTO `safetyportal`.`valid_frm_to_mas` (`id`, `frmtoname`, `activeind`) VALUES ('27 ', '07:00 P.M', 'Y');
+INSERT INTO `safetyportal`.`valid_frm_to_mas` (`id`, `frmtoname`, `activeind`) VALUES ('28', '07:30 P.M', 'Y');
+INSERT INTO `safetyportal`.`valid_frm_to_mas` (`id`, `frmtoname`, `activeind`) VALUES ('29', '08:00 P.M', 'Y');
+INSERT INTO `safetyportal`.`valid_frm_to_mas` (`id`, `frmtoname`, `activeind`) VALUES ('30', '08:30 P.M', 'Y');
+INSERT INTO `safetyportal`.`valid_frm_to_mas` (`id`, `frmtoname`, `activeind`) VALUES ('31', '09:00 P.M', 'Y');
+
