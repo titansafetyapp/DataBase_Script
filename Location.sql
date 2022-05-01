@@ -60,6 +60,7 @@ ALTER TABLE Location_Mas RENAME COLUMN modifiedDate TO modifieddate;
 ALTER TABLE Location_Mas RENAME COLUMN createdBy TO createdby;
 ALTER TABLE Location_Mas RENAME COLUMN modifiedBy TO modifiedby;
 
+//01-05-2022 --------------------Latest Location Master added ------------------------------//
 
 Insert Into Location_Mas values(1,'Corporate Functions',null,1,0,'Y',null,null,0,0);
 Insert Into Location_Mas values(2,'Titan Engineering and Automation',null,1,0,'Y',null,null,0,0);
@@ -112,8 +113,6 @@ Insert Into Location_Mas values(40,'Pantnagar (Same Departments)',null,9,0,'Y',n
 Insert Into Location_Mas values(41,'Sikkim (Same Departments)',null,9,0,'Y',null,null,0,0);
 Insert Into Location_Mas values(42,'Sikkim (Same Departments)',null,9,0,'Y',null,null,0,0);
 Insert Into Location_Mas values(43,'Coimbatore SS Case Plant',null,9,0,'Y',null,null,0,0);
-
-//01-05-2022 --------------------Latest Location Master added ------------------------------//
 
 Insert Into Location_Mas values(44,'Hosur',null,4,0,'Y',null,null,0,0);
 Insert Into Location_Mas values(45,'Pantnagar (Same Departments)',null,4,0,'Y',null,null,0,0);
