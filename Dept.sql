@@ -132,8 +132,63 @@ ALTER TABLE Dept_Mas RENAME COLUMN modifiedDate TO modifieddate;
 ALTER TABLE Dept_Mas RENAME COLUMN createdBy TO createdby;
 ALTER TABLE Dept_Mas RENAME COLUMN modifiedBy TO modifiedby;
 
+//01-05-2022 --------------------------------Latest  Department Masters added --------------------------------------//
+
+ALTER TABLE Dept_Mas ADD locationid int ;
 
 
+Insert Into Dept_Mas values (1,'Administration',0,'Y',null,null,0,0,1);
+Insert Into Dept_Mas values (2,'Human Resources',0,'Y',null,null,0,0,1);
+
+Insert Into Dept_Mas values (3,'Corporate Sustainability',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (4,'CRM',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (5,'Engineering',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (6,'Indirect Taxation',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (7,'Maintenance',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (8,'Manufacturing',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (9,'PEC-Quality Control',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (10,'PECSA General',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (11,'Projects',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (12,'Purchase',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (13,'QA-QC',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (14,'Safety',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (15,'Standards Room',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (16,'Stores',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (17,'Supply Chain Management',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (18,'Vendor Management',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (19,'Assembly',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (20,'Commercial',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (21,'Engineering Services',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (22,'MBA-After Sales And Service',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (23,'MBA-Centre Of Excellence',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (24,'MBA-Electrical Assembly',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (25,'MBA-Electrical Designs',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (26,'MBA-General',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (27,'MBA-Mechanical Assembly',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (28,'MBA-Mechanical Designs',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (29,'MBA-Module Assembly',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (30,'MBA-Programming',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (31,'MBA-Project Management',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (32,'MBA-Purchase/Store',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (33,'MBA-Quality Management',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (34,'MBA-Tech Sales & Buss. Dvlpmnt',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (35,'MBA-Tool Room',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (36,'PED-Management',0,'Y',null,null,0,0,2);
+Insert Into Dept_Mas values (37,'Production Planning Control',0,'Y',null,null,0,0,2);
+
+Insert Into Dept_Mas values (38,'Administration',0,'Y',null,null,0,0,3);
+Insert Into Dept_Mas values (39,'Analytics & Insights',0,'Y',null,null,0,0,3);
+Insert Into Dept_Mas values (40,'Business Development-IRSG',0,'Y',null,null,0,0,3);
+Insert Into Dept_Mas values (41,'Business Ethics',0,'Y',null,null,0,0,3);
+Insert Into Dept_Mas values (42,'Business Excellence',0,'Y',null,null,0,0,3);
+Insert Into Dept_Mas values (43,'Business Incubation and Strategy',0,'Y',null,null,0,0,3);
+Insert Into Dept_Mas values (44,'Caratlane',0,'Y',null,null,0,0,3);
+Insert Into Dept_Mas values (45,'Central Technology Services',0,'Y',null,null,0,0,3);
+Insert Into Dept_Mas values (46,'Compliance Assurance',0,'Y',null,null,0,0,3);
+Insert Into Dept_Mas values (47,'Corporate Sustainability',0,'Y',null,null,0,0,3);
+Insert Into Dept_Mas values (48,'CRM',0,'Y',null,null,0,0,3);
+Insert Into Dept_Mas values (49,'Design Excellence Centre',0,'Y',null,null,0,0,3);
+Insert Into Dept_Mas values (50,'Design Excellence Centre-Accessories',0,'Y',null,null,0,0,3);
 
 
 

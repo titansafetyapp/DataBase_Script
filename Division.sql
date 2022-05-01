@@ -70,7 +70,17 @@ ALTER TABLE Division_Mas RENAME COLUMN createdBy TO createdby;
 ALTER TABLE Division_Mas RENAME COLUMN modifiedBy TO modifiedby;
 
 
+// 01/05/2022 ---------------------------Latest Division Master ------------------//
 
+Insert Into Division_Mas values(1,'TEAL',1,0,null,null,'Y',0,0);
+Insert Into Division_Mas values(2,'Corporate Office',1,0,null,null,'Y',0,0);
+Insert Into Division_Mas values(3,'Eyecare-ISCM',1,0,null,null,'Y',0,0);
+Insert Into Division_Mas values(4,'Jewellery ISCM',1,0,null,null,'Y',0,0);
+Insert Into Division_Mas values(5,'RO-East',1,0,null,null,'Y',0,0);
+Insert Into Division_Mas values(6,'RO-North',1,0,null,null,'Y',0,0);
+Insert Into Division_Mas values(7,'RO-South',1,0,null,null,'Y',0,0);
+Insert Into Division_Mas values(8,'RO-West',1,0,null,null,'Y',0,0);
+Insert Into Division_Mas values(9,'Watches & Wearables ISCM',1,0,null,null,'Y',0,0);
 
 
 

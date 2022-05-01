@@ -61,6 +61,84 @@ ALTER TABLE Location_Mas RENAME COLUMN createdBy TO createdby;
 ALTER TABLE Location_Mas RENAME COLUMN modifiedBy TO modifiedby;
 
 
+Insert Into Location_Mas values(1,'Corporate Functions',null,1,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(2,'Titan Engineering and Automation',null,1,0,'Y',null,null,0,0);
+
+Insert Into Location_Mas values(3,'Corporate Functions',null,2,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(4,'Eyecare Division',null,2,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(5,'Fragrances & Fashion Accessories',null,2,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(6,'International Business',null,2,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(7,'Jewellery Division',null,2,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(8,'Sarees & Indian Dresswear (Taneira)',null,2,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(9,'Watches and Wearables',null,2,0,'Y',null,null,0,0);
+
+Insert Into Location_Mas values(10,'Corporate Functions',null,3,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(11,'Eyecare Division',null,3,0,'Y',null,null,0,0);
+
+Insert Into Location_Mas values(12,'Jewellery Division',null,4,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(13,'Corporate Functions',null,4,0,'Y',null,null,0,0);
+
+Insert Into Location_Mas values(14,'Corporate Functions',null,5,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(15,'Eyecare Division',null,5,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(16,'Fragrances & Fashion Accessories',null,5,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(17,'Sarees & Indian Dresswear (Taneira)',null,5,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(18,'Watches and Wearables',null,5,0,'Y',null,null,0,0);
+
+Insert Into Location_Mas values(19,'Corporate Functions',null,6,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(20,'Eyecare Division',null,6,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(21,'Fragrances & Fashion Accessories',null,6,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(22,'Jewellery Division',null,6,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(23,'Sarees & Indian Dresswear (Taneira)',null,6,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(24,'Watches and Wearables',null,6,0,'Y',null,null,0,0);
+
+Insert Into Location_Mas values(25,'Corporate Functions',null,7,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(26,'Eyecare Division',null,7,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(27,'Fragrances & Fashion Accessories',null,7,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(28,'Jewellery Division',null,7,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(29,'Sarees & Indian Dresswear (Taneira)',null,7,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(30,'Watches and Wearables',null,7,0,'Y',null,null,0,0);
+
+Insert Into Location_Mas values(31,'Corporate Functions',null,8,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(32,'Eyecare Division',null,8,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(33,'Fragrances & Fashion Accessories',null,8,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(34,'Jewellery Division',null,8,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(35,'Sarees & Indian Dresswear (Taneira)',null,8,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(36,'Watches and Wearables',null,8,0,'Y',null,null,0,0);
+
+Insert Into Location_Mas values(37,'Watches and Wearables',null,9,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(38,'Corporate Functions',null,9,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(39,'Hosur',null,9,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(40,'Pantnagar (Same Departments)',null,9,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(41,'Sikkim (Same Departments)',null,9,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(42,'Sikkim (Same Departments)',null,9,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(43,'Coimbatore SS Case Plant',null,9,0,'Y',null,null,0,0);
+
+//01-05-2022 --------------------Latest Location Master added ------------------------------//
+
+Insert Into Location_Mas values(44,'Hosur',null,4,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(45,'Pantnagar (Same Departments)',null,4,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(46,'MSO',null,4,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(47,'BSO (Same Deaprtments)',null,4,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(48,'Surat Diamond SO (Same Deaprtments)',null,4,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(49,'KSO (Same Deaprtments)',null,4,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(50,'JBO (Same Deaprtments)',null,4,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(51,'DSO (Same Deaprtments)',null,4,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(52,'Ahmedabad SO (Same Deaprtments)',null,4,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(53,'Hyderabad SO (Same Deaprtments)',null,4,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(54,'Coimbatore SO (Same Deaprtments)',null,4,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(55,'Surat Jew SO (Same Deaprtments)',null,4,0,'Y',null,null,0,0);
+
+Insert Into Location_Mas values(56,'Chikballapur',null,3,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(57,'Noida (Same departments)',null,3,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(58,'Kolkata  (Same departments)',null,3,0,'Y',null,null,0,0);
+
+Insert Into Location_Mas values(59,'Teal 1 - Hosur',null,1,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(60,'Teal 2 - Hosur',null,1,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(61,'Teal 3 - Hosur',null,1,0,'Y',null,null,0,0);
+Insert Into Location_Mas values(62,'Teal 4 - Hosur',null,1,0,'Y',null,null,0,0);
+
+Insert Into Location_Mas values(63,'Integrity',null,2,0,'Y',null,null,0,0);
+
 
 
 
