@@ -18,3 +18,7 @@ ALTER TABLE CompleteStatus_Mas RENAME COLUMN createdDate TO createddate;
 ALTER TABLE CompleteStatus_Mas RENAME COLUMN modifiedDate TO modifieddate;
 ALTER TABLE CompleteStatus_Mas RENAME COLUMN createdBy TO createdby;
 ALTER TABLE CompleteStatus_Mas RENAME COLUMN modifiedBy TO modifiedby;
+
+// 15-05-2022  changes added :
+INSERT INTO CompleteStatus_Mas values(4,'Rejected','Y',null,null,0,0);
+
