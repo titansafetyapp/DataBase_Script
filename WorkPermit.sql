@@ -56,4 +56,12 @@ CHANGE COLUMN `workpermitid` `workpermitid` INT NOT NULL AUTO_INCREMENT
 ALTER TABLE `safetyportal`.`workpermit_trn` 
 CHANGE COLUMN `permitdate` `permitdate` VARCHAR(20) NULL DEFAULT NULL ;
 
+ALTER TABLE `safetyportal`.`workpermit_trn`
 
+ADD COLUMN `infoareaowner` TINYINT() NULL AFTER `securitydeptid`,
+
+ADD COLUMN `infoareaowneremail` VARCHAR(100) NULL AFTER `infoareaowner`,
+
+ADD COLUMN `infosecurity` TINYINT() NULL AFTER `infoareaowneremail`,
+
+ADD COLUMN `infosecurityemail` VARCHAR(100) NULL AFTER `infosecurity`;
