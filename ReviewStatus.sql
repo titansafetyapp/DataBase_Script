@@ -36,5 +36,11 @@ UPDATE `safetyportal`.`reviewstatus_mas` SET `levelcode` = 'L4' WHERE (`reviewst
 UPDATE `safetyportal`.`reviewstatus_mas` SET `levelcode` = 'L5' WHERE (`reviewstatusid` = '7');
 
 
+INSERT INTO ReviewStatus_Mas values(8,'Rejected by Second Level Approval','Y',null,null,0,0,'RL2');
+INSERT INTO ReviewStatus_Mas values(9,'Rejected by Third Level Approval','Y',null,null,0,0,'RL3');
+INSERT INTO ReviewStatus_Mas values(10,'Rejected by Fourth Level Approval','Y',null,null,0,0,'RL4');
+INSERT INTO ReviewStatus_Mas values(11,'Rejected by Fifth Level Approval','Y',null,null,0,0,'RL5');
+
+
 
 
