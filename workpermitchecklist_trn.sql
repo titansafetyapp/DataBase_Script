@@ -10,3 +10,9 @@ CREATE TABLE workpermitchecklist_trn(
 	modifiedby int,
 	CONSTRAINT PK_workpermitchecklist_trn PRIMARY KEY (permitchecklistid)
 );
+
+
+ALTER TABLE workpermitchecklist_trn ADD issendforreview varchar(1) ;
+ALTER TABLE workpermitchecklist_trn ADD isapproved varchar(1) ;
+ALTER TABLE workpermitchecklist_trn ADD isrejected varchar(1) ;
+ALTER TABLE workpermitchecklist_trn ADD remarks varchar(500) ;
