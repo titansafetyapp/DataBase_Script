@@ -65,3 +65,6 @@ ADD COLUMN `infoareaowneremail` VARCHAR(100) NULL AFTER `infoareaowner`,
 ADD COLUMN `infosecurity` TINYINT() NULL AFTER `infoareaowneremail`,
 
 ADD COLUMN `infosecurityemail` VARCHAR(100) NULL AFTER `infosecurity`;
+
+ALTER TABLE `safetyportal`.`workpermit_trn` 
+ADD COLUMN `initiatorcompletestatusid` INT NULL AFTER `infosecurityemail`;
