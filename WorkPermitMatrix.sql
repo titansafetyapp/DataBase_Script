@@ -43,6 +43,9 @@ ALTER TABLE WorkPermitMatrix_Trn ADD COLUMN isinfo varchar(1);
 ALTER TABLE WorkPermitMatrix_Trn ADD COLUMN levelcode varchar(10);
 
 
+ALTER TABLE `safetyportal`.`workpermitmatrix_trn` 
+ADD COLUMN `approveattachement` LONGTEXT NULL AFTER `levelcode`,
+ADD COLUMN `approveattachementfilename` VARCHAR(100) NULL AFTER `approveattachement`;
 
 
 

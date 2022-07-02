@@ -25,3 +25,7 @@ ALTER TABLE workpermitchecklist_trn ADD isapproved varchar(1) ;
 ALTER TABLE workpermitchecklist_trn ADD isrejected varchar(1) ;
 ALTER TABLE workpermitchecklist_trn ADD initiatorremarks varchar(500) ;
 ALTER TABLE workpermitchecklist_trn ADD approverremarks varchar(500) ;
+
+ALTER TABLE `safetyportal`.`workpermitchecklist_trn` 
+ADD COLUMN `approveattachement` LONGTEXT NULL AFTER `initiatorremarks`,
+ADD COLUMN `approveattachementfilename` VARCHAR(100) NULL AFTER `approveattachement`;
