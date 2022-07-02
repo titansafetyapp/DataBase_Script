@@ -65,3 +65,9 @@ ADD COLUMN `infoareaowneremail` VARCHAR(100) NULL AFTER `infoareaowner`,
 ADD COLUMN `infosecurity` TINYINT() NULL AFTER `infoareaowneremail`,
 
 ADD COLUMN `infosecurityemail` VARCHAR(100) NULL AFTER `infosecurity`;
+
+-------------------------------------------------------
+//02-07-2022 - lotonumber script added
+
+ALTER TABLE WorkPermit_Trn ADD lotonumber varchar(255) ;
+
