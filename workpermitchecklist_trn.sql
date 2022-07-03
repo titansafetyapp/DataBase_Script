@@ -29,3 +29,9 @@ ALTER TABLE workpermitchecklist_trn ADD approverremarks varchar(500) ;
 ALTER TABLE `safetyportal`.`workpermitchecklist_trn` 
 ADD COLUMN `approveattachement` LONGTEXT NULL AFTER `initiatorremarks`,
 ADD COLUMN `approveattachementfilename` VARCHAR(100) NULL AFTER `approveattachement`;
+
+---------------------------------------------------------------
+// 03-07-2022 - noworkpermit script added 
+
+ALTER TABLE workpermitchecklist_trn ADD isnoworkpermit varchar(1) ;
+
