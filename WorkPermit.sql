@@ -75,3 +75,5 @@ ADD COLUMN `initiatorcompletestatusid` INT NULL AFTER `infosecurityemail`;
 
 ALTER TABLE WorkPermit_Trn ADD lotonumber varchar(255) ;
 
+ALTER TABLE `safetyportal`.`workpermit_trn` 
+CHANGE COLUMN `permitdate` `permitdate` TIMESTAMP NULL DEFAULT NULL ;
